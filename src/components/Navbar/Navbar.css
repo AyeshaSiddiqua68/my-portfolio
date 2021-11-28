@@ -1,0 +1,9 @@
+.navbar-a{
+    border-top: 0.1900rem solid rgba(255,255,255,0); 
+}
+.navbar-a:focus{
+    border-top: 0.1900rem solid maroon;
+}
+.navbar-a:hover{
+    border-top: 0.1900rem solid maroon;
+}
