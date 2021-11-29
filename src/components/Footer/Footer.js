@@ -49,7 +49,7 @@ const Footer = () => {
             </p>
             </Col>
           <Col md={4}>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled text-center">
               <li>
                 <NavLink className="menuStyle" style={navStyle} to="/home">
                   Home
