@@ -28,7 +28,9 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link text-white mx-2 navbar-a" href="#">SERVICES</a>
+                  <Link className="nav-link text-white mx-2 navbar-a" to="/blog"  aria-current="page">
+                    BLOG
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-white mx-2 navbar-a" href="#">PROJECTS</a>
