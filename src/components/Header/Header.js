@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="full-header">
             <div className="main-header fw-bold">
-                <h1>WEB DESIGN AND DEVELOPMENT</h1>
+                <h1 className="text-white">Hi! I'm <span style={{color:"maroon"}}>AYESHA SIDDIQUA</span></h1>
                 <Typed
                 className="text"
                 strings={["Web Developer", "Front-End Developer", "Full Stack Developer"]}
@@ -16,7 +16,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
                 />
-                <a style={{color:"maroon"}} href="https://drive.google.com/file/d/1whXlNAAocdQFn-tByQItHFeTFmbLoxhE/view?usp=sharing" type="button" className="btn btnDwnResume me-2 my-2 mb-md-0 fw-bold">
+                <a style={{color:"maroon", backgroundColor:"white"}} href="https://drive.google.com/uc?export=download&id=1whXlNAAocdQFn-tByQItHFeTFmbLoxhE" type="button" className="btn btnDwnResume mt-4 fw-bold">
                             <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
                         </a>
             </div>

@@ -2,31 +2,35 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 import { faEnvelope, faMapMarkerAlt, faPhoneAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-
-import Flip from 'react-reveal/Flip';
+import Zoom from 'react-reveal/Zoom';
 import MyForm from './MyForm';
 
 const Contact = () => {
     return (
-        <div className="container my-2">
-            <div className="pb-5 pt-3">
-                <h3>
-                    <Flip top cascade>
-                        <span className="pb-2 custom-red-color my-border-bottom">
+        <div style={{
+            backgroundColor: '#262626'
+        }}
+        className=" text-white pt-5" >
+            <div className="container ">
+            <div className="pb-5 pt-3 text-center">
+                <h1>
+                <Zoom left>
+                        <span  className="project-header text-white my-border-bottom">
                             <FontAwesomeIcon icon={faPaperPlane} /> Get In Touch
                         </span>
-                    </Flip>
-                </h3>
+                        <div className="project-hr" ></div>
+                    </Zoom>
+                </h1>
             </div>
 
             <div className="row">
                 <div className="col-md-6">
-                    <p className="mb-3 fw-bold">Contact With Me</p>
+                    <h4 className="mb-3 fw-bold">Contact With Me</h4>
                     <MyForm></MyForm>
                 </div>
-                <div className="col-md-6 my-2">
-                    <p className="fw-bold">Also Find Me</p>
-                    <hr />
+                <div className="col-md-6 my-2 text-center">
+                    <h4 className="fw-bold">Also Find Me</h4>
+                   <hr />
 
                     <div className="mt-4 ">
                         <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Mirpur, Dhaka-1216, Bangladesh.</p>
@@ -47,6 +51,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

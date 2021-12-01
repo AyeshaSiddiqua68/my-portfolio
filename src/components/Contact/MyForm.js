@@ -9,11 +9,7 @@ const MyForm = () => {
     const handleFormSubmit = (event) => {
         event.preventDefault();
 
-        emailjs.sendForm(
-            'service_0gfkmyq',
-            'template_ffrekwh',
-            event.target,
-            'user_lpiJjIn7nmr4M7lMgvwoe'
+        emailjs.sendForm('gmailMessage', 'template_gnc60ta', event.target, 'user_lpiJjIn7nmr4M7lMgvwoe'
         ).then(result => {
             console.log('contact us result', result);
 
@@ -23,7 +19,7 @@ const MyForm = () => {
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
-                    title: 'Thanks you!',
+                    title: 'Thank you!',
                     text: 'Thanks! We will get back to you as soon as possible.',
                     timer: 5000,
                     timerProgressBar: true,
@@ -47,30 +43,25 @@ const MyForm = () => {
     }
 
     return (
-        <div>
+        <div className="text-white pb-5">
 
 
             <form onSubmit={handleFormSubmit}>
                 <div className="form-floating mb-3 form-group">
                     <input type="text" name="name" id="name" className="form-control" placeholder="Your Name " required />
-                    <label>Your name</label>
+                    <label className="text-dark">Your name</label>
                 </div>
 
                 <div className="form-floating mb-3 form-group">
-                    <input type="text" name="user_email" id="user_email" className="form-control" placeholder="Your email address " required />
-                    <label>Your email</label>
-                </div>
-
-                <div className="form-floating mb-3 form-group">
-                    <input type="text" name="subject" id="subject" className="form-control" placeholder="Your Subject" required />
-                    <label className="text-secondary">Subject</label>
+                    <input type="text" name="email" id="user_email" className="form-control" placeholder="Your email address " required />
+                    <label className="text-dark">Your email address</label>
                 </div>
 
                 <div className="form-floating mb-3 form-group">
                     <textarea type="text" name="message" className="form-control" id="your-message" cols="30" rows="10" placeholder="Your message" required></textarea>
-                    <label className="text-secondary">Your message</label>
+                    <label className="text-dark">Write your message here</label>
                 </div>
-                <button className="btn btn-dark rounded-pill" type="submit">
+                <button className="btn btn-danger rounded-pill" type="submit">
                     <FontAwesomeIcon icon={faPaperPlane} /> Send
                 </button>
             </form>
@@ -78,7 +69,7 @@ const MyForm = () => {
             {
                 !formMsg &&
 
-                <p className="mt-3 text-success fw-bold">Thank you for your message.</p>
+                <p className="mt-3 text-secondary fw-bold">Thank's for your message!</p>
             }
 
         </div>

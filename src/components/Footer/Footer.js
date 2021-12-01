@@ -67,14 +67,14 @@ const Footer = () => {
               </li>
 
               <li>
-                <NavLink className="menuStyle" style={navStyle} to="/drones">
+                <NavLink className="menuStyle" style={navStyle} to="/projects">
                   Projects
                 </NavLink>
               </li>
 
               <li>
-                <NavLink className="menuStyle" style={navStyle} to="/blogs">
-                  Blogs
+                <NavLink className="menuStyle" style={navStyle} to="/blog">
+                  Blog
                 </NavLink>
               </li>
             </ul>
@@ -83,7 +83,7 @@ const Footer = () => {
           <Col md={4}>
             <div className="text-center">
               
-            </div>
+            
             <ul className="list-unstyled mt-3 w-100">
               <li className="fs-6 fw-bold mb-2 text-white">
                 <FontAwesomeIcon
@@ -104,6 +104,7 @@ const Footer = () => {
                 Phone: +8801765208406
               </li>
             </ul>
+            </div>
           </Col>
         </Row>
         <div>

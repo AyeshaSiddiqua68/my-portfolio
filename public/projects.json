@@ -1,70 +1,60 @@
 
 [
     {
-        "image": "https://i.ibb.co/Z6t6pdj/Capture4.png",
+        "id": 1,
         "name": "DJI Drone BD",
-        "start": "Nov 2021",
-        "end": "Nov 2021",
-        "details": "DJI Drone BD MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication and hosting. For database i have use MongoDB here. Node.js is used in backend.",
-        "technology": "Bootstrap, React JS, Node JS, React Bootstrap  Express JS,  MongoDB, Firebase, Heroku, Github",
-        "live": "https://dji-drone-bd.web.app/",
-        "github": "https://github.com/AyeshaSiddiqua68/dji-drone-bd-website-client",
+        "featureImg": "https://i.ibb.co/V9mnYpc/Captureextra.png",
+        "img1": "https://i.ibb.co/3WG7sjH/Capturedji5.png",
+        "img3": "https://i.ibb.co/NVKQrG5/Capturedji9.png",
+        "img4": "https://i.ibb.co/c2whyLy/Capturedji3.png",
+        "img2": "https://i.ibb.co/2hpW9TR/Capturedji4.png",
+        "liveLink": "https://dji-drone-bd.web.app/",
+        "details": {
+            "p1": "=> A fully functional, full-stack web app based on MERN",
+            "p2": "=> Users can place order, manage orders and give review",
+            "p3": "=> Created specific admin dashboard with nesting route",
+            "p4": "=> Responsive Website for Large and Smaller Devices Using React and Bootstrap"
+        },
+        "technology": " Bootstrap, React JS, Node JS, React Bootstrap  Express JS,  MongoDB, Firebase, Heroku, Github",
+        "codeLink": "https://github.com/AyeshaSiddiqua68/dji-drone-bd-website-client",
         "server": "https://github.com/AyeshaSiddiqua68/dji-drone-bd-website-server"
     },
     {
-        "image": "https://i.ibb.co/QmSgPY0/Capture5.png",
-        "name": "Optivit Healthy Food Delivery",
-        "start": "Nov 2021",
-        "end": "Nov 2021",
-        "details": "This full stack website designed with responsiveness. Implemented CRUD operation to manage users orders. Implemented single page application and private routing.",
-        "technology": "Bootstrap, React JS, Node JS, JSX, React Bootstrap, MongoDB, Firebase, Heroku, Github",
-        "live": "https://optivit-healthy-food-delivery.web.app/",
-        "github": "https://github.com/AyeshaSiddiqua68/optivit-food-delivery-website-client",
+        "id": 2,
+        "name": "Optivit Food Delivery ",
+        "featureImg": "https://i.ibb.co/QmSgPY0/Capture5.png",
+        "img1": "https://i.ibb.co/12NYhHF/Capturefood1.png",
+        "img2": "https://i.ibb.co/y086hpM/Capturefood2.png",
+        "img3": "https://i.ibb.co/xXX76Gq/Capturefood3.png",
+        "img4": "https://i.ibb.co/NTVw55x/Capturefood4.png",
+        "liveLink": "https://optivit-healthy-food-delivery.web.app/",
+        "details": {
+            "p1": "=> This full stack website designed with responsiveness",
+            "p2": "=> MongoDb is used as Database",
+            "p3": "=> Implemented CRUD operation to manage users orders ",
+            "p4": "=> Implemented single page application and private routing"
+        },
+        "technology": " Bootstrap, React JS, Node JS, JSX, React Bootstrap, MongoDB, Firebase, Heroku, Github",
+        "codeLink": "https://github.com/AyeshaSiddiqua68/optivit-food-delivery-website-client",
         "server": "https://github.com/AyeshaSiddiqua68/optivit-food-delivery-server"
     },
     {
-        "image": "https://i.ibb.co/G94w8LY/Capture6.png",
-        "name": "Mecity Medical Health Center",
-        "start": "Oct 2021",
-        "end": "Oct 2021",
-        "details": "Services and doctors API created in static way. Used firebase authentication for login and registration. Implemented private route.",
-        "technology": "Bootstrap, React, Google-Firebase, Github",
-        "live": "https://medcity-medical-health-center.web.app/",
-        "github": "https://github.com/AyeshaSiddiqua68/medcity-medical-center-website",
-        "server": "https://github.com/AyeshaSiddiqua68/medcity-medical-center-website"
-    },
-    {
-        "image": "https://i.ibb.co/Z6t6pdj/Capture4.png",
-        "name": "DJI Drone BD",
-        "start": "Nov 2021",
-        "end": "Nov 2021",
-        "details": "DJI Drone BD MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication and hosting. For database i have use MongoDB here. Node.js is used in backend.",
-        "technology": "Bootstrap, React JS, Node JS, React Bootstrap  Express JS,  MongoDB, Firebase, Heroku, Github",
-        "live": "https://dji-drone-bd.web.app/",
-        "github": "https://github.com/AyeshaSiddiqua68/dji-drone-bd-website-client",
-        "server": "https://github.com/AyeshaSiddiqua68/dji-drone-bd-website-server"
-    },
-    {
-        "image": "https://i.ibb.co/QmSgPY0/Capture5.png",
-        "name": "Optivit Healthy Food Delivery",
-        "start": "Nov 2021",
-        "end": "Nov 2021",
-        "details": "This full stack website designed with responsiveness. Implemented CRUD operation to manage users orders. Implemented single page application and private routing.",
-        "technology": "Bootstrap, React JS, Node JS, JSX, React Bootstrap, MongoDB, Firebase, Heroku, Github",
-        "live": "https://optivit-healthy-food-delivery.web.app/",
-        "github": "https://github.com/AyeshaSiddiqua68/optivit-food-delivery-website-client",
-        "server": "https://github.com/AyeshaSiddiqua68/optivit-food-delivery-server"
-    },
-    {
-        "image": "https://i.ibb.co/G94w8LY/Capture6.png",
-        "name": "Mecity Medical Health Center",
-        "start": "Oct 2021",
-        "end": "Oct 2021",
-        "details": "Services and doctors API created in static way. Used firebase authentication for login and registration. Implemented private route.",
-        "technology": "Bootstrap, React, Google-Firebase, Github",
-        "live": "https://medcity-medical-health-center.web.app/",
-        "github": "https://github.com/AyeshaSiddiqua68/medcity-medical-center-website",
+        "id": 3,
+        "name": "Medcity Medical",
+        "featureImg": "https://i.ibb.co/xhcKNTs/Capturecity.png",
+        "img1": "https://i.ibb.co/Yk1ZHnf/Capturemed1.png",
+        "img2": "https://i.ibb.co/hgQYd1Y/Capturemed2.png",
+        "img3": "https://i.ibb.co/MBPnHQp/Capturemed3.png",
+        "img4": "https://i.ibb.co/HPfSkjn/Capturemed4.png",
+        "liveLink": "https://medcity-medical-health-center.web.app/",
+        "details": {
+            "p1": "=> Services and doctors API created in static way",
+            "p2": "=> Used firebase authentication for login and registration",
+            "p3": "=> Responsive and Clean UI for Large and Mobile Devices",
+            "p4": "=> Implemented private route"
+        },
+        "technology": " Bootstrap, React, Google-Firebase, Github",
+        "codeLink": "https://github.com/AyeshaSiddiqua68/medcity-medical-center-website",
         "server": "https://github.com/AyeshaSiddiqua68/medcity-medical-center-website"
     }
-    
 ]

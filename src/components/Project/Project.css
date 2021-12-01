@@ -1,0 +1,25 @@
+.carousel-img-box{
+    height:750px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+}
+.carousel-img{
+    width: 100%;
+    height: auto;
+   
+}
+.back-home{
+    margin-bottom: 20px;
+    background-color: maroon;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius:8px;
+}
+.details-list{
+    list-style-type: none;
+    font-size:18px;
+    line-height:30px;
+}

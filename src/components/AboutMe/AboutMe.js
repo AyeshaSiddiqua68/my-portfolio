@@ -5,13 +5,11 @@ import Fade from 'react-reveal/Fade';
 import { faIdCard } from '@fortawesome/free-regular-svg-icons';
 import Flip from 'react-reveal/Flip';
 import profile from '../../images/profile/47.jpg'
-import Navbar from '../Navbar/Navbar';
 
 
 const AboutMe = () => {
     return (
         <>
-            <Navbar></Navbar>
             <div className="container mb-5">
                 <div className="py-5 text-center">
                     <h2>
